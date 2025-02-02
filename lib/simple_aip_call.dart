@@ -133,7 +133,9 @@ class _AirQualityScreenState extends State<AirQualityScreen> {
                   SizedBox(height: 10),
                   Text(
                     "Temperature: ${temperature.toStringAsFixed(1)}°C",
-                    style: TextStyle(fontSize: 18, color: Colors.black),
+                    style: TextStyle(
+                        fontSize: 18,
+                        color: const Color.fromARGB(255, 0, 0, 0)),
                   ),
                   SizedBox(height: 20),
                   ElevatedButton(
